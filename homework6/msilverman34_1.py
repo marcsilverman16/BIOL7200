@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import sys      #remmeber sys argv[0] is going ot be the name of script
 
 with open(sys.argv[1]) as file:

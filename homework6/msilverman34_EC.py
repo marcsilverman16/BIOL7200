@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 import pandas as pd
 import sys
 
@@ -23,7 +25,7 @@ for index, row in homologous_df.iterrows():
             matches.add(r['name'])
 
 
-with open(sys.argv[2], 'w') as f:
+with open(sys.argv[3], 'w') as f:
   for m in matches:
     f.write(f"{m}\n")
 
